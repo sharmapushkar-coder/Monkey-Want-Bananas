@@ -71,7 +71,7 @@ function draw() {
     text("🍌×"+score,390,30);
     if(touches.lenght>0||keyDown("space")){
      monkey.velocityY= -12;        
-  }
+  
   }
 
     //functions 
