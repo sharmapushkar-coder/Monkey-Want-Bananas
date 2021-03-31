@@ -73,6 +73,7 @@ function draw() {
      monkey.velocityY= -12;
      Touches[];
     }           
+  }
 
     //functions 
   obstacles();
