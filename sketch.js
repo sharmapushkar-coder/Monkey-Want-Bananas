@@ -25,7 +25,7 @@ function setup() {
   
   back1=createSprite(width/2,300,10000,600);
   back1.addImage("bla bla",back);
-  back1.velocityX=-2;
+  back1.velocityX=-4;
   //back.scale=5;
   retry=createSprite(width/2,350,60,60);
   retry.addImage("ree",retry1);
@@ -69,7 +69,7 @@ function draw() {
     textSize(20);
     fill("white")
     text("🍌×"+score,390,30);
-    if(touches.lenght>0||keyDown("space")&&monkey.y>400){
+    if(touches.lenght>0||keyDown("space")&&monkey.y>300){
      monkey.velocityY= -12;        
     }
   }
