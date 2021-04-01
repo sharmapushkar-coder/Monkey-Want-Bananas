@@ -69,7 +69,7 @@ function draw() {
     textSize(20);
     fill("white")
     text("🍌×"+score,390,30);
-    if(keyDown("space")&&monkey.y>500){
+    if(keyDown("space")&&monkey.y<500){
      monkey.velocityY= -12;        
     }
   }
