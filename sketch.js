@@ -54,7 +54,7 @@ function draw() {
     ground.x = 300;
   }
   
-  if(back1.x<300){
+  if(back1.x<400){
     back1.x=300;
   }
   //gamestate= play
@@ -69,7 +69,7 @@ function draw() {
     textSize(20);
     fill("white")
     text("🍌×"+score,390,30);
-    if(touches.lenght>0||keyDown("space")){
+    if(touches.lenght>0||keyDown("space")&&monkey.y>400){
      monkey.velocityY= -12;        
     }
   }
