@@ -54,7 +54,7 @@ function draw() {
     ground.x = 300;
   }
   
-  if(back1.x<400){
+  if(back1.x<250){
     back1.x=300;
   }
   //gamestate= play
