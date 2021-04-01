@@ -51,7 +51,7 @@ function setup() {
 function draw() {
   background("black");
   if (ground.x > 10) {
-    ground.x = 300;
+    ground.x = 400;
   }
   
   if(back1.x<250){
@@ -69,7 +69,7 @@ function draw() {
     textSize(20);
     fill("white")
     text("🍌×"+score,390,30);
-    if(touches.lenght>0||keyDown("space")&&monkey.y>300){
+    if(keyDown("space")&&monkey.y>500){
      monkey.velocityY= -12;        
     }
   }
